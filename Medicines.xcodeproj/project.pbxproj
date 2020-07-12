@@ -13,6 +13,7 @@
 		184A02FE24BA7B7400E24278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A02FD24BA7B7400E24278 /* Assets.xcassets */; };
 		184A030124BA7B7400E24278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A030024BA7B7400E24278 /* Preview Assets.xcassets */; };
 		184A030424BA7B7400E24278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184A030224BA7B7400E24278 /* LaunchScreen.storyboard */; };
+		184A030E24BB12FA00E24278 /* ButtonAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184A030D24BB12FA00E24278 /* ButtonAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		184A030024BA7B7400E24278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		184A030324BA7B7400E24278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184A030524BA7B7400E24278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184A030D24BB12FA00E24278 /* ButtonAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ButtonAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 				184A02F724BA7B7300E24278 /* AppDelegate.swift */,
 				184A02F924BA7B7300E24278 /* SceneDelegate.swift */,
 				184A02FB24BA7B7300E24278 /* ContentView.swift */,
-				184A02FD24BA7B7400E24278 /* Assets.xcassets */,
+				184A030F24BB131400E24278 /* images */,
 				184A030224BA7B7400E24278 /* LaunchScreen.storyboard */,
 				184A030524BA7B7400E24278 /* Info.plist */,
 				184A02FF24BA7B7400E24278 /* Preview Content */,
@@ -73,6 +75,15 @@
 				184A030024BA7B7400E24278 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184A030F24BB131400E24278 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				184A02FD24BA7B7400E24278 /* Assets.xcassets */,
+				184A030D24BB12FA00E24278 /* ButtonAssets.xcassets */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184A030E24BB12FA00E24278 /* ButtonAssets.xcassets in Resources */,
 				184A030424BA7B7400E24278 /* LaunchScreen.storyboard in Resources */,
 				184A030124BA7B7400E24278 /* Preview Assets.xcassets in Resources */,
 				184A02FE24BA7B7400E24278 /* Assets.xcassets in Resources */,
